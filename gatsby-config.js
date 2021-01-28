@@ -17,14 +17,14 @@ try {
 
 module.exports = {
   siteMetadata: {
-    title: 'GCN',
+    title: 'PlotSlot',
     description:
-      'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
-    siteUrl: 'https://gcn.netlify.com',
+      'Build your dream - invest in plots and lands',
+    siteUrl: 'https://plotslot.com',
     image: '/images/share.jpg',
     menuLinks: [
       {
-        name: 'Home',
+        name: 'Plot Slot',
         slug: '/',
       },
       {
@@ -82,13 +82,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'GCN',
-        short_name: 'GCN',
+        name: 'PlotSlot',
+        short_name: 'PlotSlot',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
         display: 'minimal-ui',
-        icon: './static/images/favicon.png',
+        icon: './static/images/favicon-16x16.png',
       },
     },
     'gatsby-plugin-offline',
